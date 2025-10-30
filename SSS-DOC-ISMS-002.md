@@ -1,0 +1,35 @@
+Document ID: SSS-DOC-ISMS-002
+
+Document Title: Interested Parties & Requirements
+
+Version: 1.0
+
+Owner: CTO (ISMS Manager)
+
+Status: \[Approved\]
+
+Effective Date: \[2025-10-30\]
+
+Review Cycle: \[Annual\]
+
+| Interested Party | Relation | Requirements & Expectations | Relevant ISO clauses / control |
+| :---- | :---- | :---- | :---- |
+| **IP Owner(founder)** | (Internal) Owner of SoSecureSwitch Intellectual property | Legal ownership and protection of SoSecureSwitch IP; enforceable NDAs and contractual assignments; prompt notification and remediation of any suspected IP leakage, Assurance that the IP (source code, build systems) is backed up and recoverable to prevent catastrophic loss. | 5.9 – 5.11(Inventory of information and other associated assets; Acceptable use; Return of assets) – 5.15 – 5.18 (Identity management; Authentication info; Access rights; Privileged access rights) \-  5.19 – 5.23 (Supplier relationships; Addressing info security within agreements; Monitoring and review; Change management; ICT supply chain security) \- 8.25 – 8.29 (Secure development life cycle; Application security requirements; Testing of security functionality; Outsourced development; Secure coding) \-  8.7 – 8.11, 8.15, 8.28 (Protection against malware; Backup; Logging; Monitoring activities; Change management; Secure disposal or re-use of equipment) \-  5.29 – 5.31 (ICT readiness for business continuity; Planning; Testing) \- |
+| **Client Banks** | (External) The customers who use our payment switching service. | \- High availability and integrity of transactions (uptime SLAs). \- Proof of strong security (e.g., ISO 27001 cert, audit rights). \- Data segregation and confidentiality. \- Notification of incidents. | 4.3 Scope, 5.2 Policy/ 5.1 (Policies for information security) \-5.32 – 5.36 (Legal and contractual requirements; Intellectual property rights; Privacy and PII protection; Records management; Independent review of info security) \- 8.7 – 8.11, 8.15, 8.28 (Protection against malware; Backup; Logging; Monitoring activities; Change management; Secure disposal or re-use of equipment) \- 8.20 – 8.23 (Network security; Security of network services; Segregation in networks; Web filtering) \- 5.15 – 5.18 (Identity management; Authentication info; Access rights; Privileged access rights) – 8.24 – 8.27 Use of cryptography; Key management |
+| **Regulators** | (External) Central Bank, PCI Security Standards Council. | \-Compliance with financial regs, \- incident reporting, audit readiness, \- data protection,- anti-money-laundering evidence where applicable, \- A defined process for identifying and reviewing new/updated legal and regulatory obligations. | Clause 4.1,4.2 / (applicable laws),  5.32 – 5.36 (Legal and contractual requirements; Intellectual property rights; Privacy and PII protection; Records management; Independent review of info security) \-, 5.24 – 5.26 (Information security event reporting and management; Assessment and decision; Response to incidents) |
+| **SoSecureSwitch Management** | (Internal) CEO, CTO, Board. | \- Manage risk to an acceptable level. \- Enable the business and avoid client loss. \- Cost-effective security (ROI). \- Avoid fines and reputational damage. \- Clear and timely reporting on ISMS performance, risks, and incidents to enable informed, risk-based decision-making.. | Clauses 5 & 6 (leadership, planning), A.6 organization of info security, Clause 9.3 Management Review |
+| **SoSecureSwitch Employees** | (Internal) Staff who operate and support systems | \- Clear roles, \- secure access, \- training, \- safe working processes, \- Clear, usable policies and procedures. \- Protection of their personal information (HR), Tools that are secure and usable, enabling compliance with security policies without undue friction. | 5.15 – 5.18 (Identity management; Authentication info; Access rights; Privileged access rights) –  8.25 – 8.29 (Secure development life cycle; Application security requirements; Testing of security functionality; Outsourced development; Secure coding) |
+| **Third-party suppliers & vendors (e.g., HSM provider, datacenter, ISP)** | (External) Suppliers providing critical services or components (e.g., HSM provider, datacenter, ISP) | \- Clear definition of responsibilities (physical security vs. logical). \- Access control procedures for our staff/auditors. \- SLAs, \- timely support, \- patching and notification processes, \-Assurance of supplier security posture; \- IP protection clauses in contracts; \- SBOM/third-party component transparency | 5.19 – 5.23 (Supplier relationships; Addressing info security within agreements; Monitoring and review; Change management; ICT supply chain security) \- 8.25 – 8.29 (Secure development life cycle; Application security requirements; Testing of security functionality; Outsourced development; Secure coding) \- |
+| **Payment Schemes** | (External) Standards bodies and scheme rule enforcers | \- Compliance with scheme rules and PCI DSS. \- Secure handling of cardholder data. \- fraud reporting rules; \- audit/attestation capability | 8.24 – 8.27 Use of cryptography; Key management \- 8.7 – 8.11, 8.15, 8.28 (Protection against malware; Backup; Logging; Monitoring activities; Change management; Secure disposal or re-use of equipment) \- PCI DSS mapping |
+| **Shareholders / investors** | (Internal) Owners expecting business continuity & profitability | Protection of company valuation by preventing major fines or reputational loss; assurance of operational resilience and long-term viability. | Management review evidence, risk register |
+| **Law enforcement / legal counsel** | (External) Parties engaged after incidents | Timely preservation of evidence, lawful disclosure, chain-of-custody | 5.24 – 5.26 (Information security event reporting and management; Assessment and decision; Response to incidents) |
+| **External auditors / certification bodies** | (External) Auditors for ISO or customer audits | Access to evidence, audit trails, clear policies/procedures, remediation plans | Clause 9.2 internal audit, Clause 10 continual improvement |
+| **Bank IT teams** | (External) Bank technical contacts & security reviewers | Secure integration (VPN/API), configuration change notice, incident coordination | 8.20 – 8.23 (Network security; Security of network services; Segregation in networks; Web filtering) |
+| **Public** | (External) Local community, Media, Banks customers | Accurate and timely breach notification (if required by law); maintaining public trust in SoSecureSwitch's brand. control disclosure timing | 5.24 – 5.26 (Information security event reporting and management; Assessment and decision; Response to incidents) |
+
+ 
+
+ 
+
+ 
+
