@@ -62,11 +62,10 @@ SoSecureSwitch product intellectual property: source code, design documentation,
 
 **4\. Out-of-Scope**
 
-·       **Marketing website** that does not store or process transaction data and it hosted outside of our infrastructures. — *Rationale:* no technical or contractual interface to in-scope systems.
-
-* **Bank customer internal systems** — *Rationale:* outside SoSecureSwitch operational control (interfaces remain in-scope).  
-* **Personal BYOD devices** not authorized for development or admin access — *Rationale:* only corporate-managed developer endpoints and admin consoles are in-scope;  
-* **Cloud-based office productivity services (Email, HR System)** — *Rationale: These systems do not store, process, or transmit client transaction data or SoSecureSwitch source code, and are logically segregated. They are managed via a separate Supplier Security Policy.*
+* **Marketing website** that does not store or process transaction data and it hosted outside of our infrastructures. , *Rationale:* no technical or contractual interface to in-scope systems.
+* **Bank customer internal systems** , *Rationale:* outside SoSecureSwitch operational control (interfaces remain in-scope).  
+* **Personal BYOD devices** not authorized for development or admin access ,*Rationale:* only corporate-managed developer endpoints and admin consoles are in-scope;  
+* **Cloud-based office productivity services (Email, HR System)** , *Rationale: These systems do not store, process, or transmit client transaction data or SoSecureSwitch source code, and are logically segregated. They are managed via a separate Supplier Security Policy.*
 
 **5\. Organizational chart**
 
@@ -75,8 +74,8 @@ SoSecureSwitch product intellectual property: source code, design documentation,
 * **Board of Directors**  
   * **Board Director (Chair)**  
   * **Deputy CEO**  
-  * **Chief Executive Officer (CEO)** — *ISMS Sponsor / Top Management Representative*  
-  * **Chief Technology Officer (CTO)** — *ISMS Owner / Technical Authority*  
+  * **Chief Executive Officer (CEO)** , *ISMS Sponsor / Top Management Representative*  
+  * **Chief Technology Officer (CTO)** , *ISMS Owner / Technical Authority*  
   * **Company Secretary**
 
 ---
@@ -191,7 +190,7 @@ SoSecureSwitch product intellectual property: source code, design documentation,
 
 * **ISMS Sponsor / CEO:** approve the scope and provide resources.  
 * **ISMS Owner / InfoSec Lead (CTO):** maintain scope, coordinate SoA and evidence collection.  
-* **Product Owner / Service Owners:** asset/service owners for SoSecureSwitch components — ensure inventory, classification, owners and evidence.  
+* **Product Owner / Service Owners:** asset/service owners for SoSecureSwitch components , ensure inventory, classification, owners and evidence.  
 * **IT Ops Lead / Dev Manager:** implement technical controls, change management and operational evidence.  
 * **Procurement / Vendor Manager:** ensure supplier contracts contain required security and IP clauses.  
 * **Internal Audit Lead:** audit compliance to scope and SoA.
