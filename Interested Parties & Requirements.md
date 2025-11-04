@@ -1,16 +1,13 @@
-Document ID: SSS-DOC-ISMS-002
+| Document ID: | SSS-DOC-ISMS-002 |
+| :---- | :---- |
+| **Document Title:** | **Interested Parties & Requirements** |
+| **Version:** | 1.0 |
+| **Status:** | \[Approved\] |
+| **Effective Date:** | \[2025-10-30\] |
+| **Reference:** | \[ISO/IEC 27001:2022 Clause 4.2\]|
+| **Owner:** | \[CTO (ISMS Manager)\] |
+| **Review Cycle:** | \[Annual\] |
 
-Document Title: Interested Parties & Requirements
-
-Version: 1.0
-
-Owner: CTO (ISMS Manager)
-
-Status: \[Approved\]
-
-Effective Date: \[2025-10-30\]
-
-Review Cycle: \[Annual\]
 
 | Interested Party | Relation | Requirements & Expectations | Relevant ISO clauses / control |
 | :---- | :---- | :---- | :---- |

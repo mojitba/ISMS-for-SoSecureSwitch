@@ -1,16 +1,13 @@
-Document ID: SSS-DOC-ISMS-004
+| Document ID: | SSS-DOC-ISMS-005 |
+| :---- | :---- |
+| **Document Title:** | **Risk Management Methodology** |
+| **Version:** | 1.0 |
+| **Status:** | \[Approved\] |
+| **Effective Date:** | \[2025-11-03\] |
+| **Reference:** | \[ISO/IEC 27001:2022 Clauses 6.1.2, 8.2\]|
+| **Owner:** | \[CTO (ISMS Manager)\] |
+| **Review Cycle:** | \[Annual\] |
 
-Document Title: Risk Management Methodology
-
-Version: 1.0
-
-Status: \[Approved\]
-
-Effective Date: \[2025-11-03\]
-
-Owner: ISMS Manager (CTO)
-
-Review Cycle: \[Annual\]
 
 **1\. Purpose**
 

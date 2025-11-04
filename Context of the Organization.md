@@ -1,16 +1,13 @@
-Document ID: SSS-DOC-ISMS-001
+| Document ID: | SSS-DOC-ISMS-001 |
+| :---- | :---- |
+| **Document Title:** | **Context of the Organization** |
+| **Version:** | 1.0 |
+| **Status:** | \[Approved\] |
+| **Effective Date:** | \[2025-10-29\] |
+| **Reference:** | \[ISO/IEC 27001:2022 Clause 4.1\]|
+| **Owner:** | \[CTO (ISMS Manager)\] |
+| **Review Cycle:** | \[Annual\] |
 
-Document Title: Context of the Organization
-
-Version: 1.0
-
-Owner: CTO (ISMS Manager)
-
-Status: \[Approved\]
-
-Effective Date: \[2025-10-29\]
-
-Review Cycle: \[Annual\]
 
 **Context Statement:**  
  SoSecureSwitch Ltd. operates a mission-critical payment-switching and back-office service supporting four regional banks. Over more than ten years of operation, the company has established security as a core value and has not experienced any critical security incidents.

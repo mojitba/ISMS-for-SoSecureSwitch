@@ -1,16 +1,13 @@
-Document ID: SSS-DOC-ISMS-003
+| Document ID: | SSS-DOC-ISMS-003 |
+| :---- | :---- |
+| **Document Title:** | **ISMS Scope Statement** |
+| **Version:** | 1.0 |
+| **Status:** | \[Approved\] |
+| **Effective Date:** | \[2025-10-31\] |
+| **Reference:** | \[ISO/IEC 27001:2022 Clause 4.3\]|
+| **Owner:** | \[CTO (ISMS Manager)\] |
+| **Review Cycle:** | \[Annual\] |
 
-Document Title: ISMS Scope Statement
-
-Version: \[1.0\]
-
-Status: \[Approved\]
-
-Effective Date: \[2025-10-31\]
-
-Owner: "\[ISMS Manager\]"
-
-Review Cycle: "\[Annual\]"
 
 **1\. Purpose**
 
