@@ -1,11 +1,11 @@
 
-| Document ID: | SSS-POL-ISMS-004 |
+| Document ID: | SSS-DOC-ISMS-004 |
 | :---- | :---- |
 | **Document Title:** | **ISMS Policy** |
 | **Version:** | 1.0 |
 | **Status:** | \[Approved\] |
-| **Effective Date:** | \[2026-11-01\] |
-| **Reference:** | \[ISO/IEC 27001:2022 Clauses 5.2, 5.3\]|
+| **Effective Date:** | \[2025-11-01\] |
+| **Reference:** | \[ISO/IEC 27001:2022 Clauses 5.2, 5.3, 6.2\]|
 | **Owner:** | \[CEO\] |
 | **Review Cycle:** | \[Annual\] |
 
