@@ -6,14 +6,15 @@
 | **Status:** | \[Approved\] |
 | **Effective Date:** | \[2025-11-01\] |
 | **Reference:** | \[ISO/IEC 27001:2022 Clauses 5.2, 5.3, 6.2\]|
-| **Owner:** | \[CEO\] |
+| **Owner:** | \[CTO\ISMS Owner\] |
+| **Approved by:** | \[CEO\] |
 | **Review Cycle:** | \[Annual\] |
 
 **1\. Purpose**
 
 This policy states the commitment of SoSecureSwitch Ltd. to protect the confidentiality, integrity, and availability of its information assets, including client data and its proprietary intellectual property, to manage risks in line with business objectives.
 
-**2\. ISMS Objectives**
+**2\. ISMS Policy commitment**
 
 SoSecureSwitch Ltd. is committed to:
 
@@ -58,7 +59,7 @@ Top management commits to the following measurable objectives; owners and target
 4. **Patch SLA:** ≥95% of critical patches applied to in-scope servers within 14 days of release (measured monthly).  
 5. **Evidence Coverage:** ≥90% of Annex A controls marked Applicable in SoA must have at least one linked evidence artifact uploaded to the evidence index (measured quarterly).  
 6. **Training:** 100% of in-scope staff complete role-based security training annually.  
-7. **Privileged Access:** 100% privileged account reviews completed quarterly; time to revoke access for leavers ≤ 24 hours.
+7. **Privileged Access:** 100% privileged account reviews completed quarterly; time to revoke access for leavers ≤ 4 hours.
 
 **6\. Commitment to Continual Improvement**
 

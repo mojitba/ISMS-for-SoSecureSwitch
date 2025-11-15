@@ -5,7 +5,8 @@
 | **Status:** | \[Approved\] |
 | **Effective Date:** | \[2025-10-30\] |
 | **Reference:** | \[ISO/IEC 27001:2022 Clause 4.2\]|
-| **Owner:** | \[CTO (ISMS Manager)\] |
+| **Owner:** | \[ISMS Manager\] |
+| **Approved By:** | \[ISMS Owner\] |
 | **Review Cycle:** | \[Annual\] |
 
 

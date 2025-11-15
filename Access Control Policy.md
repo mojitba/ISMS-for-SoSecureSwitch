@@ -46,9 +46,9 @@ Exclusions: None (SoSecureSwitch uses no cloud services per scope).
 
 3. **IT Ops Lead:** Implement technical access controls (IAM, AD, network ACLs, PAM), enforce account lifecycle processes.
 
-4. **Security Engineer / InfoSec:** Define privileged access controls, review privileged activity logs, run periodic checks, approve HSM custodial processes.
+4. **Security Engineer:** Define privileged access controls, review privileged activity logs, run periodic checks, approve HSM custodial processes.
 
-5. **Asset Owners / Risk Owners:** Request, approve and periodically review access to their assets; justify access levels.
+5. **Asset Owners(Roles assigned by the CTO to managers, e.g., Development Manager, IT Ops Lead):** Request, approve and periodically review access to their assets; justify access levels.
 
 6. **HR:** Notify IT Ops of onboarding/offboarding and role changes; enforce employment terms relating to access.
 
@@ -65,23 +65,23 @@ Exclusions: None (SoSecureSwitch uses no cloud services per scope).
 
 5.2 **Account Management (Provisioning & Deprovisioning)**
 
-* All account requests must be submitted via the formal provisioning workflow and approved by the asset owner or delegated approver. Evidence: IAM_Provisioning_Log.csv.
+* All account requests must be submitted via the formal provisioning workflow and approved by the asset owner or delegated approver. Evidence: IAM_Provisioning_Log_Q4.csv.
 * New accounts are assigned the minimum privileges required; group membership controls privilege.
 * Accounts for contractors/third parties are time-limited and tied to contract terms; extension requires re-approval.
-* HR must notify IT Ops within 4 business hours of termination/role change; IT Ops must revoke or adjust access within 8 business hours for leavers and 24 hours for role changes (exceptions approved by ISMS Manager). Audit evidence: Offboarding_Checklist.xlsx.
+* HR must notify IT Ops within 4 business hours of termination/role change; IT Ops must revoke or adjust access within 4 business hours for leavers and 8 hours for role changes (exceptions approved by ISMS Manager). Audit evidence: Offboarding_Checklist_Q4.csv.
 
 5.3 **Authentication & Identity Management**
 
-* Centralized SSO/IAM (A-SRV-004) is the authoritative identity store. All interactive and privileged logins must use SSO where supported. Design: `Authentication_SSO_Design.md`.
+* Centralized SSO/IAM (A-SRV-005) is the authoritative identity store. All interactive and privileged logins must use SSO where supported. Design: `Authentication_SSO_Design.md`.
 * Multi-Factor Authentication (MFA) is mandatory for: all admin accounts, privileged users, remote access, and any external-facing application used for bank interaction. Evidence: MFA_Enrollment_Report.csv.
-* Passwords or secrets used by services must follow the Secrets Management Standard and be stored in a centralized vault (HSM/KMS for crypto secrets). Evidence: KMS_Policy.pdf.
+* Passwords or secrets used by services must follow the Secrets Management Standard and be stored in a centralized vault (HSM/KMS for crypto secrets). Evidence: KMS_Policy.md.
 
 **5.4 Privileged Access Management**
 
 * Privileged accounts (domain admin, DB admin, HSM custodians, release manager) must be controlled via a PAM solution with session recording, approval workflow and just-in-time (JIT) capability. Evidence: PAM_Config_Export.json.
 * Use dedicated admin workstations / bastion hosts for all privileged administrative tasks; no general-purpose browsing or email on those workstations. Evidence: Admin_Workstation_Baseline.md.
 * Privileged sessions must be recorded and retained as evidence for audits. Evidence: Privileged_Session_Recordings.zip.
-* Privileged account reviews must occur quarterly; attestations stored in Privileged_Access_Policy.xlsx.
+* Privileged account reviews must occur quarterly; attestations stored in `Privileged_Access_Attestation_Q4.csv`.
 
 **5.5 Service & Machine Accounts**
 
@@ -90,7 +90,7 @@ Exclusions: None (SoSecureSwitch uses no cloud services per scope).
 **5.6 Remote Access and Third-Party Access**
 
 * Remote access to production systems is allowed only through approved VPN or bastion solutions, with MFA. Bank connectivity links must use mutual TLS/IPSec and per-bank authentication. Evidence: Bank_Link_Design.md.
-* Third-party access is limited, time-boxed, supervised where appropriate (e.g., HSM vendor sessions) and requires a signed contract/NDAs and supplier security approval. Evidence: Vendor_Security_SLA_signed.pdf, NDA_Register.xlsx.
+* Third-party access is limited, time-boxed, supervised where appropriate (e.g., HSM vendor sessions) and requires a signed contract/NDAs and supplier security approval. Evidence: Vendor_Security_SLA_signed.pdf, NDA_Register.csv.
 
 **5.7 Application, Database and Source Code Access**
 
@@ -106,21 +106,21 @@ Exclusions: None (SoSecureSwitch uses no cloud services per scope).
 **5.9 Network & Perimeter Access Controls**
 
 * Network segmentation is required between management, development, production, bank links and DMZs. Firewall rules are subject to change control and quarterly review. Evidence: Network_Segmentation_Design.pdf; Firewall_Rule_Review_Log.csv.
-* Load balancers, carrier links and bank connectivity must implement secure transport and high-availability design. Evidence: Carrier_SLA_Index.xlsx.
+* Load balancers, carrier links and bank connectivity must implement secure transport and high-availability design. Evidence: Carrier_SLA_Index.csv.
 
 **5.10 Access Reviews, Audit and Monitoring**
 
-* Access reviews: asset owners and HR must perform access attestation for their assets/accounts at least quarterly; records saved in Access_Attestation_HR_YYYY.xlsx.
-* Authentication and access events must be forwarded to SIEM; anomalous access triggers SOC triage. Evidence: SIEM_Alert_Report_YYYYMM.csv.
+* Access reviews: asset owners and HR must perform access attestation for their assets/accounts at least quarterly; records saved in Access_Attestation_HR_Q4.csv.
+* Authentication and access events must be forwarded to SIEM; anomalous access triggers SOC triage. Evidence: SIEM_Alert_Report_Q4.csv.
 * Failed/suspicious access attempts must be investigated and escalated per Incident Response Plan.
 
 **5.11 Logging, Retention and Evidence**
 
-* All access to critical systems (transaction switch, DB, HSM, admin consoles, CI/CD, SSO) must be logged with synchronized timestamps. Logs must be retained per the Logging & Retention policy and stored immutably in SIEM. Evidence: Log_Retention_Policy.pdf; Log_Integrity_Checks_YYYYMM.csv.
+* All access to critical systems (transaction switch, DB, HSM, admin consoles, CI/CD, SSO) must be logged with synchronized timestamps. Logs must be retained per the Logging & Retention policy and stored immutably in SIEM. Evidence: Log_Retention_Policy.md; Log_Integrity_Checks_Q4.csv.
 
 **5.12 Exceptions**
 
-* Exceptions to this policy require an explicit written risk acceptance approved by the ISMS Manager and the respective asset owner; all exceptions must include compensating controls and a sunset date. Record: Access_Policy_Exceptions_Register.xlsx.
+* Exceptions to this policy require an explicit written risk acceptance approved by the ISMS Manager and the respective asset owner; all exceptions must include compensating controls and a sunset date. Record: Access_Policy_Exceptions_Register.csv.
 
 **5.13 Non-Compliance**
 
@@ -138,21 +138,21 @@ Exclusions: None (SoSecureSwitch uses no cloud services per scope).
 
 **7. Evidence & Records (examples)**
 
-`Access_Control_Policy.pdf` (this document)
+`Access_Control_Policy.md` (this document)
 
-`IAM_Provisioning_Log.csv`
+`IAM_Provisioning_Log_Q4.csv`
 
-`Privileged_Access_Policy.xlsx`
+`Privileged_Access_Policy.md`
 
 `PAM_Config_Export.json`
 
-`MFA_Enrollment_Report.csv`
+`MFA_Enrollment_Report_Q4.csv`
 
 `Source_Code_Access_Policy.md`
 
-`Artifact_Signing_Records.csv`
+`Artifact_Signing_Records_Q4.csv`
 
-`SIEM_Alert_Report.md`
+`SIEM_Alert_Report_Q4.csv`
 
 **8. Review & Exceptions**
 

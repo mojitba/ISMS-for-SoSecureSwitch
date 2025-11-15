@@ -4,8 +4,9 @@
 | **Version:** | 1.0 |
 | **Status:** | \[Approved\] |
 | **Effective Date:** | \[2025-11-03\] |
-| **Reference:** | \[ISO/IEC 27001:2022 Clauses 6.1.2, 8.2\]|
-| **Owner:** | \[CTO (ISMS Manager)\] |
+| **Reference:** | \[ISO/IEC 27001:2022 Clauses 6.1.2,6.1.3,8.2\]|
+| **Owner:** | \[ISMS Manager\] |
+| **Approved By:** | \[ISMS Owner\] |
 | **Review Cycle:** | \[Annual\] |
 
 
@@ -17,7 +18,7 @@ This document describes the methodology used by SoSecureSwitch to identify, anal
 
 The risk assessment process is conducted annually and follows these steps:
 
-1. **Asset-based Risk Identification:** Identify threats and vulnerabilities for each critical asset in the Asset Register (SSS-DOC-ISMS-005).  
+1. **Asset-based Risk Identification:** Identify threats and vulnerabilities for each critical asset in the Asset Register (SSS-DOC-ISMS-006).  
 2. **Risk Analysis:** Analyze risks by determining the **Impact** of a risk event and the **Likelihood** of it occurring.  
 3. **Risk Evaluation:** Calculate the final **Risk Score** and compare it against the defined Risk Acceptance Criteria to determine risk priority.
 
@@ -27,7 +28,7 @@ The Impact of a risk event is based on the Confidentiality (C), Integrity (I), a
 
 The final **Impact Score (1-5)** is the **highest (MAX) value** of the C, I, or A scores for that asset.
 
-* **Example:** Asset A-DAT-001 (Source Code) is C=5, I=5, A=3.  
+* **Example:** Asset A-DAT-002 (Source Code) is C=5, I=5, A=3.  
 * The **Impact Score** for *any* risk to this asset (e.g., theft, modification) is **5**.
 
 | Impact Category | Operational Description | Reputational Scope | Regulatory Consequences | Business Value Impact |
@@ -72,7 +73,7 @@ Risks are evaluated against the following criteria to determine the required tre
 
 | Risk Score | Risk Level | Required Action |
 | :---- | :---- | :---- |
-| **15 \- 25** | **High** | **Mitigate.** Must be treated immediately. Requires a formal Risk Treatment Plan (RTP) and ISMS Manager approval. |
+| **15 \- 25** | **High** | **Mitigate.** Treatment required. A formal Risk Treatment Plan (RTP) must be created. Acceptance of a 'High' risk requires formal, written approval from Top Management (CEO). |
 | **6 \- 12** | **Medium** | **Mitigate or Accept.** Treatment is required unless formally accepted by the Asset Owner and ISMS Manager. |
 | **1 \- 5** | **Low** | **Accept.** No further treatment required. Risk is accepted by the Asset Owner. |
 

@@ -5,7 +5,8 @@
 | **Status:** | \[Approved\] |
 | **Effective Date:** | \[2025-10-31\] |
 | **Reference:** | \[ISO/IEC 27001:2022 Clause 4.3\]|
-| **Owner:** | \[CTO (ISMS Manager)\] |
+| **Owner:** | \[ISMS Manager\] |
+| **Approved By:** | \[ISMS Owner\] |
 | **Review Cycle:** | \[Annual\] |
 
 
@@ -17,13 +18,13 @@ This scope has been determined based on the analysis of internal/external issues
 
 **2\. Scope Statement**
 
-The ISMS for SoSecureSwitch Ltd. covers the **design, development, deployment, operation, maintenance, and support** of the **SoSecureSwitch payment-switch platform** and associated back-office services used by our four bank customers. The scope includes SoSecureSwitch as a proprietary intellectual property asset ,production and disaster recovery transaction environments, cryptographic key management (HSM/KMS), transaction databases, the web-based back-office application, source control repositories, build and release pipelines (CI/CD), developer endpoints used to build and test the product, supporting network and infrastructure components (on-prem data centers and connectivity to bank customers), monitoring and logging systems used for detection and evidence, and supplier services that directly support the in-scope systems.
+The ISMS for SoSecureSwitch Ltd. covers the **design, development, deployment, operation, maintenance, and support** of the **SoSecureSwitch payment-switch platform** and associated back-office services used by our four bank customers. The scope includes SoSecureSwitch as a proprietary intellectual property asset, production and disaster recovery transaction environments, cryptographic key management (HSM/KMS), transaction databases, the web-based back-office application, source control repositories, build and release pipelines (CI/CD), developer endpoints used to build and test the product, supporting network and infrastructure components (on-prem data centers and connectivity to bank customers), monitoring and logging systems used for detection and evidence, and supplier services that directly support the in-scope systems.
 
 **3\. In-Scope**
 
 **Departments**
 
-IT, Developers Team, Information Security, HR, Legal, Management Board,
+IT, Developers Team, Information Security, Human Resources, Legal Department, Management Board, Physical Security.
 
 **Systems & Applications**
 
@@ -46,7 +47,7 @@ IT, Developers Team, Information Security, HR, Legal, Management Board,
 
 **People & Processes**
 
-* Employees, contractors involved in design, development, deployment, operations, support and security of SoSecureSwitch (Dev, Ops, Support, Security, Product).  
+* Employees, contractors involved in design, development, deployment, operations, support and security of SoSecureSwitch (from the Development, IT Operations, and Information Security teams).  
 * Operational processes that directly affect in-scope systems: change management, release management, incident response, backup & restore, privileged access management, secure SDLC activities.
 
 **Suppliers (in scope function)**
@@ -55,14 +56,13 @@ HSM/KMS provider, network/ISP providers, and CI/CD tooling providers that host o
 
 **Assets of special significance**
 
-SoSecureSwitch product intellectual property: source code, design documentation, build artifacts, release signing keys and related derivates.
+SoSecureSwitch product intellectual property: source code, design documentation, build artifacts, release signing keys and related derivatives.
 
 **4\. Out-of-Scope**
 
-* **Marketing website** that does not store or process transaction data and it hosted outside of our infrastructures. , *Rationale:* no technical or contractual interface to in-scope systems.
-* **Bank customer internal systems** , *Rationale:* outside SoSecureSwitch operational control (interfaces remain in-scope).  
-* **Personal BYOD devices** not authorized for development or admin access ,*Rationale:* only corporate-managed developer endpoints and admin consoles are in-scope;  
-* **Cloud-based office productivity services (Email, HR System)** , *Rationale: These systems do not store, process, or transmit client transaction data or SoSecureSwitch source code, and are logically segregated. They are managed via a separate Supplier Security Policy.*
+* **Marketing website** that does not store or process transaction data and it hosted outside of our infrastructures. - *Rationale:* no technical or contractual interface to in-scope systems.
+* **Bank customer internal systems** - *Rationale:* outside SoSecureSwitch operational control (interfaces remain in-scope).  
+* **Personal BYOD devices** not authorized for development or admin access - *Rationale:* only corporate-managed developer endpoints and admin consoles are in-scope;  
 
 **5\. Organizational chart**
 
@@ -117,7 +117,7 @@ SoSecureSwitch product intellectual property: source code, design documentation,
 * **ISMS Analyst / Compliance Officer**  
 * **SOC / Incident Response Analyst**
 
-*Main Responsibilities:* implement and maintain ISMS; perform risk assessments, internal audits, vulnerability management, and awareness training; coordinate compliance with ISO 27001 and regulatory obligations.
+*Main Responsibilities:* implement and maintain ISMS; perform risk assessments, vulnerability management, and awareness training; coordinate compliance with ISO 27001 and regulatory obligations.
 
 ---
 
@@ -152,7 +152,7 @@ SoSecureSwitch product intellectual property: source code, design documentation,
 
 **7\. Cleaning & Facility Services – 2 persons**
 
-**Facilities & Cleaning Staff (x2)** *(report to Physical Security Officer or HR Manager depending on structure)*  
+**Facilities & Cleaning Staff (x2)** *(Physical Security Officer)*  
  *Main Responsibilities:* maintain cleanliness and support facility hygiene standards in secure zones.
 
 ---
@@ -169,28 +169,28 @@ SoSecureSwitch product intellectual property: source code, design documentation,
 | **CI/CD / Build servers & pipeline (on-prem)** | Automated builds, tests, artifact generation and release pipelines. Controls the release process and artifact integrity. | Build & Release Engineer / Dev Manager |
 | **Logging & monitoring (centralized on-prem SIEM / log store)** | Central collection of logs for detection, alerting, investigation and evidence for customers/regulators. | Monitoring & Support Engineer / SOC Analyst |
 | **Backup & restore systems (on-prem backup appliances)** | Backups of DBs, configs, source-code snapshots and artifacts. Needed for recovery & evidence. | Backup & DR Coordinator / IT Ops Lead |
-| **Data center / colocation provider** | Physical facility hosting production & DR hardware (power, cooling, access control). | IT Ops Lead / Vendor Manager |
-| **Network/ISP provider (internet & carrier links)** | WAN connectivity that supports bank links and remote staff access. | IT Ops Lead / Procurement |
-| **Supplier: HSM / hardware / vendor support** | On-site support, firmware updates, spare parts, emergency access. | Vendor Manager / Legal |
+| **Data center / colocation provider** | Physical facility hosting production & DR hardware (power, cooling, access control). | IT Ops Lead |
+| **Network/ISP provider (internet & carrier links)** | WAN connectivity that supports bank links and remote staff access. | IT Ops Lead / Legal Counsel |
+| **Supplier: HSM / hardware / vendor support** | On-site support, firmware updates, spare parts, emergency access. | IT Ops Lead / Legal |
 | **Bank test & certification environments (customer testbeds)** | Test transactions for integration/QA; sometimes contain sanitized data. | Dev Manager / Lead Software Engineer (Switch Platform) |
 | **Payment networks / clearing houses (downstream processors)** | Settlement, clearing and message exchange to payment networks. | IT Ops Lead / Dev Manager |
 | **Legal / Regulatory interfaces (regulators, data protection authority)** | Regulatory reporting, audits, compliance requests and notifications. | Compliance Officer / Legal Counsel |
 | **Internal identity/SSO & HR systems (on-prem)** | User onboarding/offboarding; authentication & role provisioning for staff and contractors. | HR Manager / IT Ops Lead |
 | **Time synchronization service (NTP / time servers)** | Central time source for logs/signatures (critical for evidence & non-repudiation). | IT Ops Lead / Monitoring Engineer |
 | **Physical security & facilities (access control, CCTV)** | Physical controls for DC & secure areas, badge access, escorted vendor visits. | Physical Security Officer |
-| **Incident response escalation contacts (legal, PR, banks)** | Formal communication paths for incidents (banks/regulator/press/legal). | ISMS Manager / IR Lead |
-| **Insurance / risk transfer (cyber / IP insurance)** | Financial recovery and contractual coverage; insurer obligations for evidence. | CFO / Risk Owner |
+| **Incident response escalation contacts (legal, PR, banks)** | Formal communication paths for incidents (banks/regulator/press/legal). | ISMS Manager |
+| **Insurance / risk transfer (cyber / IP insurance)** | Financial recovery and contractual coverage; insurer obligations for evidence. | CEO |
 
  
 
 **7\. Responsibilities**
 
 * **ISMS Sponsor / CEO:** approve the scope and provide resources.  
-* **ISMS Owner / InfoSec Lead (CTO):** maintain scope, coordinate SoA and evidence collection.  
-* **Product Owner / Service Owners:** asset/service owners for SoSecureSwitch components , ensure inventory, classification, owners and evidence.  
+* **ISMS Owner (CTO):** maintain scope, coordinate SoA and evidence collection.  
+* **Product Owner / Service Owners:** (Roles assigned by the CTO to relevant managers, e.g., Dev Manager, IT Ops Lead) ensure inventory, classification, owners and evidence for their designated assets.  
 * **IT Ops Lead / Dev Manager:** implement technical controls, change management and operational evidence.  
-* **Procurement / Vendor Manager:** ensure supplier contracts contain required security and IP clauses.  
-* **Internal Audit Lead:** audit compliance to scope and SoA.
+* **Legal Counsel / IT Ops Lead:** ensure supplier contracts contain required security and IP clauses.  
+* **Internal Audit Lead:** Internal Audit Lead: (Role performed by a party independent of the ISMS, such as the Deputy CEO or an external specialist) audit compliance to scope and SoA.
 
  
 
