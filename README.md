@@ -43,23 +43,25 @@ This repository is organized by document ID. The traceability, or continuity of 
 | Document ID | Document Title | Purpose |
 | :--- | :--- | :--- |
 | `SSS-DOC-ISMS-004` | ISMS Policy | Top management's commitment, roles, and measurable security objectives (KPIs). |
-
-### Clause 6: Planning (Risk Management)
-| Document ID | Document Title | Purpose |
-| :--- | :--- | :--- |
-| `SSS-DOC-ISMS-005` | Risk Management Methodology | Defines the qualitative 5x5 matrix (L x I) and risk acceptance criteria. |
-| `SSS-DOC-ISMS-006` | Asset Register | The inventory of all in-scope assets (systems, data, people, facilities), C-I-A scores, and owners. |
-| `SSS-DOC-ISMS-007` | Risk Register | The output of the risk assessment, linking assets to 29 specific threats and vulnerabilities. |
-| `SSS-DOC-ISMS-008` | Risk Treatment Plan (RTP) | The project plan for mitigating all identified risks, including owners, due dates, and residual risk. |
-| `SSS-DOC-ISMS-009` | Statement Of Applicability (SoA) | The master list of all 93 Annex A controls, justifications (Y/N), and implementation status. |
-
-### Clause 8: Operation (Policies & Procedures)
-| Document ID | Document Title | Purpose |
-| :--- | :--- | :--- |
 | `SSS-DOC-ISMS-010` | Access Control Policy | The core policy for identity, privileged access (PAM), least privilege, and access lifecycle. |
 | `SSS-DOC-ISMS-011` | Incident Response Plan | The plan for handling P1-P4 incidents, including the IRT, SLAs, and reporting lines. |
 | `SSS-DOC-ISMS-013` | Role-Based Access Control Matrix | Maps specific job titles (from the Org Chart) to the systems and access levels they are granted. |
 | `SSS-DOC-ISMS-014` | ISMS Operating Procedures Manual | A master document containing all key SOPs (Change, Backup, DR, Patching, Supplier Mgmt, etc.). |
+| `SSS-DOC-ISMS-015` | ISMS Roles and Responsibilities Matrix | Matrix requires top management to ensure that Information Security roles are clearly defined, assigned and communicated. |
+
+### Clause 6: Planning
+| Document ID | Document Title | Purpose |
+| :--- | :--- | :--- |
+| `SSS-DOC-ISMS-005` | Risk Management Methodology | Defines the qualitative 5x5 matrix (L x I) and risk acceptance criteria. |
+| `SSS-DOC-ISMS-009` | Statement Of Applicability (SoA) | The master list of all 93 Annex A controls, justifications (Y/N), and implementation status. |
+
+### Clause 8: Operation
+| Document ID | Document Title | Purpose |
+| :--- | :--- | :--- |
+| `SSS-DOC-ISMS-006` | Asset Register | The inventory of all in-scope assets (systems, data, people, facilities), C-I-A scores, and owners. |
+| `SSS-DOC-ISMS-007` | Risk Register | The output of the risk assessment, linking assets to 29 specific threats and vulnerabilities. |
+| `SSS-DOC-ISMS-008` | Risk Treatment Plan (RTP) | The project plan for mitigating all identified risks, including owners, due dates, and residual risk. |
+
 
 ---
 

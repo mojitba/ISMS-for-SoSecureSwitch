@@ -149,7 +149,6 @@ A security **event** becomes an **incident** when ANY of the following is true:
 
 ## **5.2 Incident Prioritization (P1–P4)**
 
-### ***(Same structure you created—this is good and fully adequate)***
 
 | Priority | Definition | Examples | SLA |
 | ----- | ----- | ----- | ----- |
@@ -302,7 +301,6 @@ Corrective actions tracked in:
 
 # **7\. Evidence Requirements (Mandatory ISO Section)**
 
-This section you previously lacked; now fully added.
 
 | Phase | Evidence Required | Location |
 | ----- | ----- | ----- |

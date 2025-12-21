@@ -4,7 +4,7 @@
 | **Version:** | 1.0 |
 | **Status:** | \[Approved\] |
 | **Effective Date:** | \[2025-11-16\] |
-| **Reference:** | \[ISO 27001:2022 Clause 6.1.2, Annex A.5.24-A.5.28\]|
+| **Reference:** | \[ISO 27001:2022 Clause 5.3, Annex A.5.2\]|
 | **Owner:** | \[ISMS Manager\] |
 | **Approved By:** | \[ISMS Owner\] |
 | **Review Cycle:** | \[Annual, or after any P1/P2 incident\] | 

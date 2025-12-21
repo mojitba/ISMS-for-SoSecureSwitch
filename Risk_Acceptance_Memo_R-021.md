@@ -10,4 +10,5 @@
 | **Review Cycle:** | \[Annual or after major change\] |
 
 We acknowledge that R-021 remains a High risk (15) and we accept this residual risk while committing to the ongoing mitigation actions.
-CTO (ISMS Manager)
+
+ISMS Manager
